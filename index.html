@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Mass Converter</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Mass Converter</h1>
+        <p id="instruct">Please input the amount you would like to convert</p><br>
+
+        <label>Grams(g):</label>
+        <input type="number" id="inputGrams" placeholder="Grams"
+        oninput="converterForGrams(this.value)"
+        onchange="converterForGrams(this.value)">
+        <br><br>
+
+        <label>Kilograms(kg):</label>
+        <input type="number" id="inputKilograms" placeholder="Kilograms"
+        oninput="converterForKilograms(this.value)"
+        onchange="converterForKilograms(this.value)">
+        <br><br>
+
+        <label>Milligrams(mg):</label>
+        <input type="number" id="inputMilligrams" placeholder="Milligrams"
+        oninput="converterForMilligrams(this.value)"
+        onchange="converterForMilligrams(this.value)">
+        <br><br>
+
+        <label>Micrograms(μg):</label>
+        <input type="number" id="inputMicrograms" placeholder="Micrograms"
+        oninput="converterForMicrograms(this.value)"
+        onchange="converterForMicrograms(this.value)">
+        <br><br>
+
+        <label>Pounds(lb):</label>
+        <input type="number" id="inputPounds" placeholder="Pounds"
+        oninput="converterForPounds(this.value)"
+        onchange="converterForPounds(this.value)">
+        <br><br>
+
+        <label>Tons(t):</label>
+        <input type="number" id="inputTons" placeholder="Tons"
+        oninput="converterForTons(this.value)"
+        onchange="converterForTons(this.value)">
+        <br><br>
+
+    </div>
+    
+</body>
+</html>
